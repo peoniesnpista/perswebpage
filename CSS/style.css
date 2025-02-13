@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro{
+    color: white;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: 20%;
+    position: top;
+}
+.nav{
+    background-color: rgb(23, 50, 129);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    top: 0;
+}
+ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 70px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+}
+.bod{
+    color: white;
+    margin-top: 15%;
+    margin-left: 17%;
+    display: flex;
+    gap: 40px;
+}
+.one{
+    color: rgb(72, 147, 231);
+    font-size: larger;
+}
+.aa{
+    display: flex;
+    gap: 20px;
+}
+#hi{
+   color: white;
+   padding: 10px 20px;
+   background-color: rgb(42, 45, 235);
+   border: 2px solid rgb(42, 45, 235);
+   border-radius: 3%;
+}
+#hi:hover{
+    background-color: white;
+    color: rgb(42, 45, 235);
+}
+#cv{
+    color: rgb(42, 45, 235);
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 3%;
+}
+#cv:hover{
+    background-color: rgb(42, 45, 235);
+    color: white;
+}
+#mine{
+    height: 450px;
+    width: 400px;
+    margin-right: 150px;
+    margin-top: -90px;
+}
+.next{
+    color: white;
+}
+.wid{
+    color: rgb(74, 120, 247);
+    margin-top: 3%;
+    text-align: center;
+}
+.exp{
+    margin-top: 3%;
+    text-align: center;
+}
+.anot{
+        display: grid;
+        gap: 30px 20px;
+        padding: 15px;
+        grid-template-columns: repeat(4, 1fr);
+}
+.box{
+    padding: 10px;
+    margin-top: 90px;
+    margin-left: 40%;
+}
+#ii{
+    height: 100px;
+    width: 100px;
+}
+figcaption{
+    color: white;
+    align-items: center;
+    margin: 20px;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.mid{
+    color: white;
+    margin-top: -80px;
+}
+#pp{
+    color: rgb(72, 147, 231);
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: -100px;
+}
+#miffy{
+    height: 400px;
+    width: 350px;
+    margin-right: 150px;
+    margin-top: -90px;
+    margin-left: 250px;
+}
+#lore{
+    margin-left: -100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+.service{
+    color: rgb(72, 147, 231);
+    font-family: serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 45%;
+    margin-top: 100px;
+}
+.blog{
+    border: 1px solid white;
+    height: 430px;
+    width: 350px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 2px 0px 7px gray;
+}
+.blog1 img{
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 7px; 
+    
+}
+.fi1{
+font-weight: bold;
+color:rgb(23, 50, 129) ;
+font-size: large;
+font-weight: bolder;
+text-align: center;
+}
+.se2{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.ma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.t{
+    font-size: 14px;
+    text-align: justify;
+    padding: 5px;
+}
+.blog:hover{
+    transform: scale(1.1);
+}
+.mai{
+    margin-left: 250px;
+}
+.servicee{
+    color: rgb(42, 45, 235);
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 27%;
+    margin-top: 10%;
+}
+.form{
+    margin-left: 13%;
+    margin-top: 3%;
+}
+#pipo{
+    width: 300px;
+    height: 20px;
+    margin-top: 30px;
+    padding: 3px;
+}
+#pio{
+    width: 100px;
+    height: 20px;
+   margin-top: 30px;
+   margin-left: 105px;
+   background-color: rgb(42, 45, 235);
+   color: white;
+   border: 2px solid rgb(42, 45, 235);
+   border-radius: 5%;
+}
+#pio:hover{
+    box-shadow: inset 2px 2px 2px rgb(28, 30, 133);
+}
+.last{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    margin-left: 37%;
+    border-radius: 5%;
+}
+
